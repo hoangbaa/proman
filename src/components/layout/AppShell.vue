@@ -1,1 +1,15 @@
-{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}
+<template>
+  <div class="app-shell">
+    <slot />
+  </div>
+</template>
+
+<script setup lang="ts">
+// AppShell component logic
+</script>
+
+<style scoped>
+.app-shell {
+  min-height: 100vh;
+}
+</style>
